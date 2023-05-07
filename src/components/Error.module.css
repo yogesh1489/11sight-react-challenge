@@ -1,0 +1,13 @@
+.error {
+    background-color: #406188;
+    height: 25rem;
+    width: 25rem;
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}

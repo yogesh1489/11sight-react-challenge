@@ -1,0 +1,47 @@
+.container {
+    padding: 1rem;
+    margin: 2rem;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.image {
+  height: 10rem;
+  width: 10rem;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 0.25rem;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    color: #044599;
+}
+
+.container1 p {
+    margin: 1rem;
+}
+
+@media (min-width: 650px) {
+   .container {
+    flex-direction: row;
+   }
+   .image {
+    height: 20rem;
+    width: 20rem;
+   }
+}
+

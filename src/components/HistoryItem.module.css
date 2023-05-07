@@ -1,0 +1,16 @@
+.container {
+    background-color: #406188;
+    margin: 1rem 0;
+    padding: 1rem;
+    margin-left: 25%;
+    width:50%;
+    border-radius: 0.25rem;
+}
+
+.item {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
